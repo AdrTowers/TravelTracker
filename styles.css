@@ -1,0 +1,25 @@
+#title {
+  text-align: center;
+}
+
+#destinations_container {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+#submit_btn {
+  width: 100%;
+}
+
+.card {
+  width: 18rem;
+  margin: 1px;
+}
+
+.btn-container {
+  width: 100% !important;
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: space-evenly !important;
+}
