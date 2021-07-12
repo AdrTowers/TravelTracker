@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.jumbotron {
+  background-color: lightgray;
+  padding: 3rem;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
 #destinations_container {
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -18,8 +27,8 @@
 }
 
 .btn-container {
-  width: 100% !important;
+  width: 100%;
   display: flex;
   margin-bottom: 1rem;
-  justify-content: space-evenly !important;
+  justify-content: space-evenly;
 }
