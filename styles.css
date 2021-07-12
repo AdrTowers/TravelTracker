@@ -11,6 +11,10 @@
   margin-top: 2rem;
 }
 
+.form-group {
+  padding-bottom: 15px;
+}
+
 #destinations_container {
   justify-content: space-evenly;
   flex-wrap: wrap;

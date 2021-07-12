@@ -10,11 +10,17 @@ formData.addEventListener("submit", (e) => {
   var description = document.getElementById("description").value;
 
   cardInfo(name, location, photo, description);
+
+  //Reset form values
+  formData.reset();
 });
 
 //Creating Card
 function cardInfo(name, loc, photo, desc) {
   console.log(name, loc, photo, desc);
+
+  //Change destination title name
+  document.getElementById("title").innerHTML = "Your Wishlist";
 
   //Photo
   var stockImg =
